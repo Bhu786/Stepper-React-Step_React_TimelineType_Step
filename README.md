@@ -88,3 +88,22 @@ const Stepper = () => {
 
 export default Stepper;
 ```
+
+---
+---
+Dynamic Step Content: You can display different content based on the step:
+
+```react.js
+<div className="mt-6">
+  {currentStep === 1 && <p>Content for Step 1</p>}
+  {currentStep === 2 && <p>Content for Step 2</p>}
+  {currentStep === 3 && <p>Content for Step 3</p>}
+  {currentStep === 4 && <p>Content for Step 4</p>}
+</div>
+
+```
+
+
+
+
+
