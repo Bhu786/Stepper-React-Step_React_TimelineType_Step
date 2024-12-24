@@ -1,6 +1,6 @@
 # Stepper-React-Step_React_TimelineType_Step
 
-![ddd](./stepper.png)
+![ddd](./Stepper.png)
 
 ```react.js
 
